@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Start your development with a Design System for Bootstrap 4.">
+  <meta name="author" content="Creative Tim">
+  <title>SoundSearch</title>
+  <!-- Favicon -->
+  <link href="../assets/img/brand/favicon.png" rel="icon" type="image/png">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+  <!-- Icons -->
+  <link href="../assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
+  <link href="../assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Argon CSS -->
+  <link type="text/css" href="../assets/css/argon.css?v=1.0.1" rel="stylesheet">
+  <!-- Docs CSS -->
+  <!-- <link type="text/css" href="../assets/css/docs.min.css" rel="stylesheet"> -->
+</head>
+
+<body>
+    <header class="header-global">
+        <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom"> 
+          <div class="container">
+              <a class="navbar-brand mr-lg-5" href="../index.html">
+              <img src="../assets/img/brand/logo.png">
+            </a>
+            <div class="navbar-collapse collapse" id="navbar_global">
+              <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+                <li class="nav-item dropdown">
+                  <a href="../index.html" class="nav-link" data-toggle="tooltip" href="#ranking" role="button">
+                    <span class="nav-link-inner--text">Ranking</span>
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="../examples/busqueda.html" target="_blank" role="button">
+                    <i class="ni ni-collection d-lg-none"></i>
+                    <span class="nav-link-inner--text">Búsqueda</span>
+                  </a>
+                </li>
+              </ul>
+              <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+                <li class="nav-item">
+                  <a class="nav-link nav-link-icon" href="https://www.facebook.com" target="_blank" data-toggle="tooltip" title="Danos Like en Facebook">
+                    <i class="fa fa-facebook-square"></i>
+                    <span class="nav-link-inner--text d-lg-none">Facebook</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-link-icon" href="https://www.instagram.com" target="_blank" data-toggle="tooltip" title="Síguenos en Instagram">
+                    <i class="fa fa-instagram"></i>
+                    <span class="nav-link-inner--text d-lg-none">Instagram</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-link-icon" href="https://twitter.com" target="_blank" data-toggle="tooltip" title="Síguenos en Twitter">
+                    <i class="fa fa-twitter-square"></i>
+                    <span class="nav-link-inner--text d-lg-none">Twitter</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-link-icon" href="https://mail.google.com/mail" target="_blank" data-toggle="tooltip" title="Contáctanos con Gmail">
+                    <i class="fa fa-github"></i>
+                    <span class="nav-link-inner--text d-lg-none">Gmail</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-icon" href="#" target="_blank" data-toggle="tooltip" title="Perfil">
+                      <i class="fa fa-user"></i>
+                      <span class="nav-link-inner--text d-lg-none">Perfil</span>
+                    </a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+     <main>
+    <div class="position-relative">
+      <!-- shape Hero -->
+      <section class="section section-shaped">
+        <div class="shape shape-style-1 shape-default">
+          <span></span>          <span></span>
+          <span></span>          <span></span>
+          <span></span>          <span></span>  
+          <span></span>          <span></span>
+          <span></span>          <span></span>
+          <span></span>          <span></span>       
+        </div>
+    </section>
+  </div>
+        <!-- SVG separator -->
+      <div class="container">
+        <div class="row row-grid align-items-center">
+          <div class="col-md-6 order-md-2">
+            <img src="../assets/img/mapa/mapa.png" class="img-fluid floating" id="mapa">
+          </div>
+          <div class="col-md-3 order-md-1 styled-select blue rounded ">
+              <select id="departamentos">
+                  <option value="">Seleccione el Departamento</option>
+                  <option value="altaverapaz">Alta Verapaz</option>
+                  <option value="bajaverapaz">Baja Verapaz</option>
+                  <option value="chimaltenango">Chimaltenango</option>
+                  <option value="chiquimula">Chiquimula</option>
+                  <option value="elprogreso">El Progreso</option>
+                  <option value="escuintla">Escuintla</option>
+                  <option value="guatemala">Guatemala</option>
+                  <option value="huehuetenango">Huehuetenango</option>
+                  <option value="izabal">Izabal</option>
+                  <option value="jalapa">Jalapa</option>
+                  <option value="jutiapa">Jutiapa</option>
+                  <option value="peten">Petén</option>
+                  <option value="quetzaltenango">Quetzaltenango</option>
+                  <option value="quiche">Quiché</option>
+                  <option value="retalhuleu">Retalhuleu</option>
+                  <option value="sacatepequez">Sacatepéquez</option>
+                  <option value="sanmarcos">San Marcos</option>
+                  <option value="santarosa">Santa Rosa</option>
+                  <option value="solola">Sololá</option>
+                  <option value="suchitepequez">Suchitepéquez</option>
+                  <option value="totonicapan">Totonicapán</option>
+                  <option value="zacapa">Zacapa</option>
+              </select>
+          </div>
+          <div class="col-md-2 order-md-2">
+            <button 
+            id="boton"
+            class="btn btn-info mt-4"
+            onclick="CambiarMapa()">Buscar
+            </button>
+          </div>
+        </div>
+        <!-- AGREGAR EMISORAS -->
+        <center>
+            <p id="demo" class="letraEstereo"></p>
+        </center>
+
+        
+      </div>
+    </div>
+  </main>
+  
+  <footer class="footer">
+      <div class="container">
+        <div class="row row-grid align-items-center mb-5">
+          <div class="col-lg-6">
+            <h3 class="text-primary font-weight-light mb-2">Gracias por preferirnos!</h3>
+            <h4 class="mb-0 font-weight-light">Puedes encontrarnos en cualquiera de éstas plataformas</h4>
+          </div>
+          <div class="col-lg-6 text-lg-center btn-wrapper">
+            <a target="_blank" href="https://twitter.com/IsLittleStep" class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" data-toggle="tooltip" data-original-title="Síguenos">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a target="_blank" href="https://www.facebook.com/StephanieSinLaE" class="btn btn-neutral btn-icon-only btn-facebook btn-round btn-lg" data-toggle="tooltip" data-original-title="Danos Like">
+              <i class="fa fa-facebook-square"></i>
+            </a>
+            <a target="_blank" href="https://instagram.com/stephaniesinlae_" class="btn btn-neutral btn-icon-only btn-dribbble btn-lg btn-round" data-toggle="tooltip" data-original-title="Síguenos">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <hr>
+        <div class="row align-items-center justify-content-md-between">
+          <div class="col-md-6">
+            <div class="copyright">
+              &copy; 2019
+              <a href="../index.html" target="_blank">SoundSearch</a>.
+            </div>
+          </div>
+          <div class="col-md-6">
+          </div>
+        </div>
+      </div>
+    </footer>
+  <!-- Core -->
+  <script src="../assets/js/mapa.js"></script>
+  <script src="../assets/vendor/jquery/jquery.min.js"></script>
+  <script src="../assets/vendor/popper/popper.min.js"></script>
+  <script src="../assets/vendor/bootstrap/bootstrap.min.js"></script>
+  <script src="../assets/vendor/headroom/headroom.min.js"></script>
+  <!-- Optional JS -->
+  <script src="./assets/vendor/onscreen/onscreen.min.js"></script>
+  <script src="./assets/vendor/nouislider/js/nouislider.min.js"></script>
+  <script src="./assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+  <script src="..//Ejemplo1/assets/js/freelancer.js"></script>
+</body>
+<!-- Argon JS -->
+<script src="../assets/js/argon.js?v=1.0.1"></script>
+<script src="jquery-3.4.0.min.js"></script>
+<script src="../Ejemplo1/assets/js/textyle.js"></script>
+<script src="../Ejemplo1/assets/js/particles.js"></script>
+<script src="../Ejemplo1/assets/js/app.js"></script>
+<script src="../Ejemplo1/assets/js/jquery.easypiechart.js"></script>
+
+</html>
